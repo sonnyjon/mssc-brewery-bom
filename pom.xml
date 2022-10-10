@@ -47,6 +47,7 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <org.mapstruct.version>1.5.2.Final</org.mapstruct.version>
         <jaxb.version>2.3.1</jaxb.version>
+        <jaxb.core.version>4.0.0</jaxb.core.version>
         <awaitility.version>3.1.6</awaitility.version>
         <lombok.mapstruct.bindVersion>0.2.0</lombok.mapstruct.bindVersion>
     </properties>
@@ -61,7 +62,7 @@
             <dependency>
                 <groupId>com.sun.xml.bind</groupId>
                 <artifactId>jaxb-core</artifactId>
-                <version>4.0.0</version>
+                <version>${jaxb.core.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.sun.xml.bind</groupId>
